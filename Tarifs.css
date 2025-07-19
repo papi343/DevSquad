@@ -17,6 +17,7 @@ body{
     color: black;
     padding-top: 30%;
     font-family: 'Arial', sans-serif;
+    padding-left: 30px;
 }
 h1{
     display: flex;
