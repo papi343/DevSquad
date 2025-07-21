@@ -1,0 +1,39 @@
+.title{
+    text-align: center;
+    color: lightblue;
+}
+.diagnostics{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.diagnostic{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.diagnostic h3{
+    color:lightblue;
+    font-size: small;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+li{
+    margin: 5px 0;
+}
+.more{
+    color: black;
+    font-weight: bold;
+    cursor: pointer ;
+    margin-top: 10px;
+}
