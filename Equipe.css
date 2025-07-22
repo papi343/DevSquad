@@ -1,0 +1,23 @@
+.personal{
+    display: flex;
+    justify-content: center;
+}
+.personal > .pers > img{
+    width: 100px;
+    height: 100px;
+}
+.personal > .pers > button > img{
+    width: 20px;
+    height: 20px;
+}
+.personal > .pers > h1{
+    font-size: 20px;
+}
+.personal > .pers > h2{
+    font-size: 16px;
+    color: gray;
+}
+.personal > .pers > button{
+    width: 100%;
+    background-color: gray;
+}
