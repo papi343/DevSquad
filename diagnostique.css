@@ -15,6 +15,7 @@
     width: 300px;
     padding: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30;
 }
 .diagnostic h3{
     color:lightblue;
@@ -22,6 +23,7 @@
     margin-bottom: 10px;
     text-transform: uppercase;
     text-align: center;
+   
 }
 ul{
     list-style: none;
@@ -36,4 +38,80 @@ li{
     font-weight: bold;
     cursor: pointer ;
     margin-top: 10px;
+}
+.img{
+    
+    margin-top: 100px;
+    
+}
+.diagno{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.imag{
+  display: grid;
+  
+  height: 300px;
+  width: 300px;
+  margin-left: 45px;
+  margin-right: 30px;
+}
+.imag:hover {
+  transform: translateY(5px) ;
+}
+/*  */
+
+.service-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.card{
+   border: 1px solid;
+   border-radius: 10px;
+}
+.h3{
+    text-align: center;
+}
+.bas{
+    text-align: center;
+}
+/*-------- Partierepro --------------*/
+.bsi-section h2{
+    text-align: center;
+    color: blue;
+    font-size: 28px;
+}
+.bsi-section span {
+  color: #000;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.content img {
+  max-width: 300px;
+  margin-right: 30px;
+}
+
+.text {
+  flex: 1;
+}
+
+.text ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.text ul li {
+  margin-bottom: 10px;
 }
