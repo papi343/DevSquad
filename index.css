@@ -152,7 +152,7 @@ body{
 .flip-box-container:hover .flip-box-inner {
     transform: rotateY(180deg); /* ROTATION SUR LAXE Y */
 }
-.flip-box-front, .flip-box-back {
+.flip-box-front, .flip-box-back{
     position: absolute;
      border-radius: 20px;
     width: 100%;
