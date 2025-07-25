@@ -1,4 +1,4 @@
-.navbar>.logo>img {
+.container>.navbar>.logo>img {
     width: 60px;
     height: 60px;
 
@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 
-.navbar {
+.container>.navbar {
   width: 100%;
   height: 60px;
   background-color: lightgray;
@@ -22,37 +22,41 @@
   z-index: 1000;
   border-radius: 15px;
 }
-.navbar>.logo {
+.container>.navbar>.logo {
   margin-left: 20px;
 }
-.navbar>.logo>img {
+.container>.navbar>.logo>img {
   border-radius: 50%;
 }
-.navbar>.menue {
+.container>.navbar>.menue {
   display: flex;
   gap: 20px;
   margin-right: 20px;
 }
-.navbar>.menue>ul>li>a {
+.container>.navbar>.menue>ul>li>a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
-.navbar>.menue>ul {
+.container>.navbar>.menue>ul {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.navbar>.menue>ul>li {
+.container>.navbar>.menue>ul>li {
   margin: 0 10px;
 }
-.navbar>.menue>ul>li>a {
+.container>.navbar>.menue>ul>li>a {
   font-size: 18px;
 }
-.navbar>.menue>ul>li>a:hover {
+.container>.navbar>.menue>ul>li>a:hover {
   color:white;
+  
+}
+.container>.navbar>.menue>.dropdown>.dropdown-content>ul>li>a{
+    font-size: 1px;
 }
 /*masque la liste déroulante par défaut*/
 .dropdown-content {
@@ -80,14 +84,14 @@
     list-style: none;
     padding: 0;
     margin: 0;
-}
+} 
 .content>a>button {
     padding: 10px 20px;
     background-color:  #67dffa;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 16px;
+    font-size: 16 px;
     cursor: pointer;
  
 }
@@ -156,8 +160,8 @@ ol{
     padding: 0;
 }
 li{
-    margin: 15px;
-    font-size: 20px;
+    margin: 5px;
+    font-size: 18px;
 }
 .tarif h2{
     text-align: center;
