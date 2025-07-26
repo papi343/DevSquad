@@ -1,37 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="formulaire.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire de contact</title>
+  <link rel="stylesheet" href="formulaire.css">
 </head>
 <body>
-            <div class="tableau">
-            <form action="">
-            
-    <center>
-        <h1 id="CONTACT">FORMULAIRE DE DEPANNAGE</h1>
-    </center>
-    <label for="">NOM</label>
-    <input type="text" required><br><br>
-    <label for="">PRENOM</label>
-    <input type="text" required><br><br>
-    <label for="">LIEU DE RESIDENCE</label>
-    <input type="text" required> <br><br>
-    <label for="">ADRESSE MAIL</label>
-    <input type="email" required><br><br>
-    <label for="">DATE DE NAISSANCE</label>
-    <input type="date" required><br><br>
-    <label for="">VOTRE NUMERO DE TELEPHONE</label>
-    <input type="tel" required><br><br>
-    <textarea name="" id="">
-        DECRIVEZ VOS PROBLEMES
-    </textarea> <br><br>
-    <button type="submit">ENVOYER</button>
-    <button type="reset">ANNULER</button>
- </form>
-        </div>
-    </div>
+  <div class="form-container">
+    <h2>Contactez-nous</h2>
+    <form action="#" method="post">
+      <label for="name">PRENOM</label>
+      <input type="text" id="PRENOM" name="PRENOM" required>
+       <label for="name">Nom</label>
+      <input type="text" id="NOM" name="NOM" required>
+       <label for="name">RESIDENCE</label>
+      <input type="text" id="RESIDENCE" name="RESIDENCE" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">EXPLIQUER VOTRE PROBLEME</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <label>
+        <input type="checkbox" required> J'accepte les conditions
+      </label>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
 </body>
 </html>
