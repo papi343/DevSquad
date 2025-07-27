@@ -94,6 +94,7 @@ body{
     margin-top: 30px;
     display: block;
     padding-top: 100px;
+    
 }
 .container>.content>h1 {
     font-size: 36px;
@@ -104,9 +105,9 @@ body{
     line-height: 1.6;
  
 }
-.container>.content>button {
+.container>.content>a>button {
     padding: 10px 20px;
-    background-color:  #67dffa;
+    background-color:  lightblue;
     border: none;
     border-radius: 5px;
     color: white;
@@ -114,7 +115,7 @@ body{
     cursor: pointer;
  
 }
-.container>.content>button:hover {
+.container>.content>a>button:hover {
     background-color: #55c8e6;
 }
 .container>h1 {
@@ -189,10 +190,10 @@ body{
     padding-top: 10px;
     font-size: 20px;
 }
-.flip-box-container>.flip-box-inner>.flip-box-back>button {
+.flip-box-container>.flip-box-inner>.flip-box-back>a>button {
     
     padding: 10px 20px;
-    background-color:black;
+    background-color:lightskyblue;
     border: none;
     border-radius: 5px;
     color: white;

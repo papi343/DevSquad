@@ -102,7 +102,7 @@
 }
 
 .navbar {
-  width: 100%;
+  width: 99%;
   height: 60px;
   background-color: lightgray;
   display: flex;
@@ -112,6 +112,7 @@
   top: 0;
   z-index: 1000;
   border-radius: 15px;
+  margin: 10px;
 
 }
 .navbar>.logo {
@@ -188,6 +189,7 @@
     padding: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-top: 30;
+    margin-bottom: 30px;
 }
 .diagnostic h3{
     color:black;
@@ -405,6 +407,9 @@ ul li {
     cursor: pointer;
 }
 
+.foot{
+    text-align: center;
+}
 
 .content {
     padding: 20px;
@@ -415,6 +420,8 @@ ul li {
     margin-top: 30px;
     display: block;
     padding-top: 100px;
+    width: 97%;
+     margin: 10px;
 }
 .content>h1 {
     font-size: 36px;
@@ -425,9 +432,9 @@ ul li {
     line-height: 1.6;
  
 }
-.content>button {
+.content>a>button {
     padding: 10px 20px;
-    background-color:  #67dffa;
+    background-color:  lightblue;
     border: none;
     border-radius: 5px;
     color: white;
