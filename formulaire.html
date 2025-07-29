@@ -1,37 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="formulaire.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire de contact</title>
+  <link rel="stylesheet" href="formulaire.css">
 </head>
 <body>
-            <div class="tableau">
-            <form action="">
-            
-    <center>
-        <h1 id="CONTACT">FORMULAIRE DE DEPANNAGE</h1>
-    </center>
-    <label for="">NOM</label>
-    <input type="text" required><br><br>
-    <label for="">PRENOM</label>
-    <input type="text" required><br><br>
-    <label for="">LIEU DE RESIDENCE</label>
-    <input type="text" required> <br><br>
-    <label for="">ADRESSE MAIL</label>
-    <input type="email" required><br><br>
-    <label for="">DATE DE NAISSANCE</label>
-    <input type="date" required><br><br>
-    <label for="">VOTRE NUMERO DE TELEPHONE</label>
-    <input type="tel" required><br><br>
-    <textarea name="" id="">
-        DECRIVEZ VOS PROBLEMES
-    </textarea> <br><br>
-    <button type="submit">ENVOYER</button>
-    <button type="reset">ANNULER</button>
- </form>
+   <div class="navbar">
+            <div class="logo">
+                <img src="logo5.jpg" alt="" >
+            </div>
+            <div class="menue">
+
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="dropdown"><a href="#">Services</a>
+                        <ul class="dropdown-content">
+                            <li><a href="Pneu et vidange.html">Pneu & Vidange</a></li>
+                            <li><a href="amortisseur.html">Amortisseurs</a></li>
+                            <li><a href="batterieclai.html">Batteries & Eclairage</a></li>
+                            <li><a href="freindisque.html">Freins & Disques</a></li>
+                            <li><a href="nettoyage.html">Nettoyage</a></li>
+                            <li><a href="diagnostique.html">Diagnostic</a></li>
+                            <li><a href="depannage.html">Dépannage et Remorquage</a></li>
+                            <li><a href="repprogramation.html">Reprogrammation</a></li>
+                            <li><a href="climatisation.html">Climatisation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Tarifs.html">Tarifs</a></li>
+                    <li><a href="Equipe.html">Equipe</a></li>
+                    <li><a href="formulaire.html">Contact</a></li>
+                </ul>
+            </div>
+              <div class="social-icons">
+                            <a href="https://www.facebook.com" target="_blank"><img src="reseaux-sociaux.png" alt="Facebook"></a>
+                            <a href="https://www.Instagram.com" target="_blank"><img src="video.png" alt="Instagram"></a>
+                            <a href="https://www.youtube.com" target="_blank"><img src="youtube (1).png" alt="Instagram"></a>
+            </div>
         </div>
-    </div>
+          <div class="content">
+                <h1>Contactez-nous</h1>
+               <a href="#cont"><button>contact</button></a> 
+            </div>
+  <div class="form-container">
+    <h2 id="cont">Contactez-nous</h2>
+    <form action="#" method="post">
+      <label for="name">PRENOM</label>
+      <input type="text" id="PRENOM" name="PRENOM" required>
+       <label for="name">Nom</label>
+      <input type="text" id="NOM" name="NOM" required>
+       <label for="name">RESIDENCE</label>
+      <input type="text" id="RESIDENCE" name="RESIDENCE" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">EXPLIQUER VOTRE PROBLEME</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <label>
+        <input type="checkbox" required> J'accepte les conditions
+      </label>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+   <div class="footer">
+                        <p>&copy; 2025 Garage Express. Tous droits réservés.</p>
+                        <div class="social-icons">
+                            <a href="https://www.Facebook.com" target="_blank"><img src="reseaux-sociaux.png" alt="Facebook"></a>
+                            <a href="https://www.Instagram.com" target="_blank"><img src="video.png" alt=""></a>
+                            <a href="https://www.youtube.com/" target=""><img src="youtube (1).png" alt="Instagram"></a>
+                        </div>
+
+                    </div>
 </body>
 </html>

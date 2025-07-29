@@ -102,7 +102,7 @@
 }
 
 .navbar {
-  width: 100%;
+  width: 99%;
   height: 60px;
   background-color: lightgray;
   display: flex;
@@ -112,6 +112,7 @@
   top: 0;
   z-index: 1000;
   border-radius: 15px;
+  margin: 10px;
 
 }
 .navbar>.logo {
@@ -188,6 +189,7 @@
     padding: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-top: 30;
+    margin-bottom: 30px;
 }
 .diagnostic h3{
     color:black;
@@ -405,6 +407,9 @@ ul li {
     cursor: pointer;
 }
 
+.foot{
+    text-align: center;
+}
 
 .content {
     padding: 20px;
@@ -415,6 +420,8 @@ ul li {
     margin-top: 30px;
     display: block;
     padding-top: 100px;
+    width: 97%;
+     margin: 10px;
 }
 .content>h1 {
     font-size: 36px;
@@ -425,9 +432,9 @@ ul li {
     line-height: 1.6;
  
 }
-.content>button {
+.content>a>button {
     padding: 10px 20px;
-    background-color:  #67dffa;
+    background-color:  lightblue;
     border: none;
     border-radius: 5px;
     color: white;
@@ -439,7 +446,327 @@ ul li {
     background-color: #55c8e6;
 }
 
+.content2 {
+    padding: 20px;
+    background-image: url(Media/Images/diagnostic2.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 100px;
+    width: 97%;
+     margin: 10px;
+}
+.content2>h1 {
+    font-size: 36px;
 
+}
+.content2>p {
+    font-size: 18px;
+    line-height: 1.6;
+ 
+}
+.content2>a>button {
+    padding: 10px 20px;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.content2>button:hover {
+    background-color: #55c8e6;
+}
+
+
+.content3 {
+    padding: 20px;
+    background-image: url(Media/Images/amortisseur.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 100px;
+    width: 97%;
+     margin: 10px;
+}
+.content3>h1 {
+    font-size: 36px;
+
+}
+.content3>p {
+    font-size: 18px;
+    line-height: 1.6;
+ 
+}
+.content3>a>button {
+    padding: 10px 20px;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.content3>button:hover {
+    background-color: #55c8e6;
+}
+
+
+.content4 {
+    padding: 20px;
+    background-image: url(Media/Images/remeurque.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 100px;
+    width: 97%;
+     margin: 10px;
+}
+.content4>h1 {
+    font-size: 36px;
+
+}
+.content4>p {
+    font-size: 18px;
+    line-height: 1.6;
+ 
+}
+.content4>a>button {
+    padding: 10px 20px;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.content4>button:hover {
+    background-color: #55c8e6;
+}
+
+
+.content5 {
+    padding: 20px;
+    background-image: url(Media/Images/reprogrammation\ auto.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 100px;
+    width: 97%;
+     margin: 10px;
+}
+.content5>h1 {
+    font-size: 36px;
+
+}
+.content5>p {
+    font-size: 18px;
+    line-height: 1.6;
+ 
+}
+.content5>a>button {
+    padding: 10px 20px;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.content5>button:hover {
+    background-color: #55c8e6;
+}
+
+.content6 {
+    padding: 20px;
+    background-image: url(Media/Images/pneu1.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 100px;
+    width: 97%;
+     margin: 10px;
+}
+.content6>h1 {
+    font-size: 36px;
+
+}
+.content6>p {
+    font-size: 18px;
+    line-height: 1.6;
+ 
+}
+.content6>a>button {
+    padding: 10px 20px;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.content6>button:hover {
+    background-color: #55c8e6;
+}
+
+
+.content7 {
+    padding: 20px;
+    background-image: url(Media/Images/clim\ auto.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 100px;
+    width: 97%;
+     margin: 10px;
+}
+.content7>h1 {
+    font-size: 36px;
+
+}
+.content7>p {
+    font-size: 18px;
+    line-height: 1.6;
+ 
+}
+.content7>a>button {
+    padding: 10px 20px;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.content7>button:hover {
+    background-color: #55c8e6;
+}
+
+
+.content8 {
+    padding: 20px;
+    background-image: url(Media/Images/batterie\ eclairage.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 100px;
+    width: 97%;
+     margin: 10px;
+}
+.content8>h1 {
+    font-size: 36px;
+
+}
+.content8>p {
+    font-size: 18px;
+    line-height: 1.6;
+ 
+}
+.content8>a>button {
+    padding: 10px 20px;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.content8>button:hover {
+    background-color: #55c8e6;
+}
+
+
+.content9 {
+    padding: 20px;
+    background-image: url(Media/Images/nettoyage.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 100px;
+    width: 97%;
+     margin: 10px;
+}
+.content9>h1 {
+    font-size: 36px;
+
+}
+.content9>p {
+    font-size: 18px;
+    line-height: 1.6;
+ 
+}
+.content9>a>button {
+    padding: 10px 20px;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.content9>button:hover {
+    background-color: #55c8e6;
+}
+
+
+.content10 {
+    padding: 20px;
+    background-image: url(Media/Images/frein\ disque2.jpg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 30px;
+    display: block;
+    padding-top: 100px;
+    width: 97%;
+     margin: 10px;
+}
+.content10>h1 {
+    font-size: 36px;
+
+}
+.content10>p {
+    font-size: 18px;
+    line-height: 1.6;
+ 
+}
+.content10>a>button {
+    padding: 10px 20px;
+    background-color:  lightblue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.content10>button:hover {
+    background-color: #55c8e6;
+}
 .advice {
     display: flex;
     justify-content: center;

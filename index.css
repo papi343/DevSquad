@@ -87,34 +87,41 @@ body{
 /* fin de liste */
 .container>.content {
     padding: 20px;
-    background-image: url(back1.jpg);
+    background-image: url(mom.jpeg);
     height: 600px;
     background-size: cover;
     color: white;
-    margin-top: 30px;
+    margin-top: 10px;
     display: block;
     padding-top: 100px;
+    
 }
 .container>.content>h1 {
     font-size: 36px;
+    text-align: center;
+    margin-top: 80px;
 
 }
 .container>.content>p {
     font-size: 18px;
     line-height: 1.6;
- 
+    text-align: center;
+margin-top: 50px;
 }
-.container>.content>button {
+.container>.content>a>button {
     padding: 10px 20px;
-    background-color:  #67dffa;
+    background-color:  lightblue;
     border: none;
     border-radius: 5px;
     color: white;
+    text-decoration: none;
     font-size: 16px;
     cursor: pointer;
- 
+ text-align: center;
+    display: block;
+    margin: 0 auto;
 }
-.container>.content>button:hover {
+.container>.content>a>button:hover {
     background-color: #55c8e6;
 }
 .container>h1 {
@@ -189,10 +196,10 @@ body{
     padding-top: 10px;
     font-size: 20px;
 }
-.flip-box-container>.flip-box-inner>.flip-box-back>button {
+.flip-box-container>.flip-box-inner>.flip-box-back>a>button {
     
     padding: 10px 20px;
-    background-color:black;
+    background-color:lightskyblue;
     border: none;
     border-radius: 5px;
     color: white;

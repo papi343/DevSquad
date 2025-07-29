@@ -87,30 +87,7 @@
 } 
 .content>a>button {
     padding: 10px 20px;
-    background-color:  #67dffa;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16 px;
-    cursor: pointer;
- 
-}
-.content>a>button:hover {
-    background-color: #55c8e6;
-}
-.content {
-    padding: 20px;
-    background-image: url(back1.jpg);
-    height: 600px;
-    background-size: cover;
-    color: white;
-    margin-top: 30px;
-    display: block;
-    padding-top: 100px;
-}
-.content{
-    padding: 10px 20px;
-    background-color:  #67dffa;
+    background-color:  lightblue;
     border: none;
     border-radius: 5px;
     color: white;
@@ -118,13 +95,26 @@
     cursor: pointer;
  
 }
+.content>a>button:hover {
+    background-color: #55c8e6;
+}
+.content{
+    padding: 20px;
+    background-image: url(mom.jpeg);
+    height: 600px;
+    background-size: cover;
+    color: white;
+    margin-top: 10px;
+    display: block;
+    padding-top: 100px;
+    padding-left: 50px;
+}
 #p1{
     font-size: 25px;
     font-weight: bold;
     width: 70%;
     color: white;
-    padding-top: 5%;
-    padding-left: 30px;
+    padding-top: 8%;
 }
 h1{
     display: flex;
@@ -140,9 +130,13 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
 }
+.contenir>button{
+    padding-left: 30px;
+}
+
 .tarif{
     width: 320px;
-    height: 480px;
+    height: 400px;
     background-color : lightblue;
     color: black;
     margin: 20px;
