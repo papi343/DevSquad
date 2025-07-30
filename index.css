@@ -102,6 +102,7 @@ body{
     margin-top: 80px;
 
 }
+
 .container>.content>p {
     font-size: 18px;
     line-height: 1.6;
@@ -120,6 +121,9 @@ margin-top: 50px;
  text-align: center;
     display: block;
     margin: 0 auto;
+}
+.container>.content>a{
+    text-decoration: none;
 }
 .container>.content>a>button:hover {
     background-color: #55c8e6;
